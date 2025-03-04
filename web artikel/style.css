@@ -1,0 +1,68 @@
+body{
+    font-family: poppins;
+}
+
+.category{
+    text-align: center;
+    line-height: 60px;
+    color: rgb(55, 54, 54);
+}
+
+.by{
+    text-align: center;
+    color: rgb(55, 54, 54);
+}
+
+h1{
+    text-align: center;
+    line-height: 0%;
+}
+
+.daftar{
+    font-size: large;
+    line-height: 0%;
+    color: black;
+}
+
+p{
+    color: rgb(55, 54, 54);
+}
+
+.introduction{
+    font-size: x-large;
+    line-height: 0%;
+    color: black;
+}
+
+.dropcap{
+    color: black;
+    font-size: xx-large;
+    font-weight: bolder;
+}
+
+.detailed{
+    font-size: x-large;
+    line-height: 0%;
+    color: black;
+}
+
+.various{
+    font-size: x-large;
+    line-height: 0%;
+    color: black;
+}
+
+li span{
+    color: blue;
+    font-size: small;
+}
+
+.text{
+    color: black;
+    margin-bottom: -10px;
+}
+
+.tag{
+    font-size: x-small;
+    color: grey;
+}
