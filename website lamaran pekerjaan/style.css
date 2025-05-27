@@ -1,0 +1,139 @@
+body {
+  background-color: #E4F1AC;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.header {
+  background-color: #A7D477;
+  color: #F72C5B;
+  padding: 30px 0px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.footer {
+  background-color: #A7D477;
+  color: #F72C5B;
+  text-align: center;
+  padding: 15px 0;
+  width: 100%;
+}
+
+.header h3, .footer p {
+  margin: 0;
+}
+
+.main-container {
+  flex: 1;
+  padding: 0;
+}
+
+.sidebar {
+  background-color: #F72C5B;
+  padding: 20px 0;
+  color: black;
+  min-height: 100hv;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.sidebar a {
+  display: block;
+  padding: 12px 20px;
+  color: black;
+  text-decoration: none;
+  border-bottom: 1px solid black;
+  font-weight: bold;
+  transition: all 0.3s;
+}
+
+.sidebar a:hover, .sidebar a.active {
+  background-color: #FF748B;
+}
+
+.main-content {
+  padding: 20px;
+  min-height: calc(100vh - 110px);
+}
+
+.content-section, .biodata-section {
+  background-color: #E4F1AC;
+  padding: 15px;
+  border: 1px solid #000;
+  border-radius: 0;
+  margin: 10px;
+  height: 100%;
+  text-align: center;
+}
+
+.biodata-section {
+  background-color: #F72C5B;
+  padding: 15px;
+  border: 1px solid #000;
+  border-radius: 0;
+  height: 100%;
+}
+
+.profile-img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.biodata-table {
+  margin: 20px auto 0 auto;
+  margin-bottom: 135px;
+  border-collapse: separate;
+  text-align: left;
+  font-size: x-small;
+}
+
+.biodata-table td.value {
+  border: 1px solid black;
+  text-align: left;
+  background-color: #F72C5B;
+}
+
+.biodata-table tr td:first-child {
+  font-weight: bold;
+  width: 30%;
+}
+
+.section-title {
+  text-decoration: underline;
+  margin-bottom: 30px;
+  color: #333;
+}
+
+.portofolio.row{
+  padding: 10px;
+}
+
+.sosmed-row{
+  padding: 10px;
+  text-align: left;
+}
+
+.porto-img, .sosmed-img{
+  width: 200px;
+  object-fit: cover;
+}
+
+@media (max-width: 768px) {
+  .sidebar {
+    min-height: auto;
+  }
+  
+  .main-content {
+    min-height: auto;
+  }
+  
+  .biodata-section {
+    margin-top: 20px;
+  }
+}
